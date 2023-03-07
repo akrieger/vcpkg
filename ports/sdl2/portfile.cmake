@@ -1,8 +1,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
-    REPO libsdl-org/SDL
-    REF "release-${VERSION}"
-    SHA512 b795810fdf18affd3a03f79354e8ac5525f1023b27cdf7858d463781c5977eea8b34e39c089f71c3ca2d23722af55a3910af79f70c021f40c6281ab1476e1818
+    REPO akrieger/SDL
+    REF release-2.26.4_patched2
+    SHA512 885243493d981eeeb87c116a9ad6c9ef66dd6f8fcc46023e6c539b72b8d454c051ce1a8d5a083b0494d888e0ea8a987ede7c0794f38bde8aaf8e7ae615740bdc
     HEAD_REF main
     PATCHES
         deps.patch
